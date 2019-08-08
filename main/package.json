@@ -1,0 +1,32 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "Serviço de coleta do site para o sistema LPR",
+  "node-main": "./app.js",
+  "main": "index.html",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1",
+    "nwjs-builder": "^1.14.0"
+  },
+  "window": {
+    "title": "Coletor LPR",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 600,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 300
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LPR"
+  ],
+  "author": "Oberdan Brito",
+  "license": "ISC"
+}
